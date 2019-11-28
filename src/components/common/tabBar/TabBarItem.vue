@@ -16,10 +16,7 @@
         default: 'red',
       }
     },
-    data() {
-      return {
-      }
-    },
+
     methods: {
       activeClick() {
         if(this.$route.path !== this.path) {
